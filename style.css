@@ -1,5 +1,108 @@
-*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;background:#080706;color:#f7f4ef;font-family:"DM Sans",Arial,sans-serif}body{overflow:hidden}:root{--gold:#e4b83f;--gold2:#ffdf72;--serif:"Playfair Display",Georgia,serif}.page{height:100svh;min-height:0;max-width:1600px;margin:0 auto;display:grid;grid-template-rows:64px minmax(0,1fr) 24px;overflow:hidden;background:radial-gradient(ellipse at 54% 38%,#5d3e1629,transparent 48%),#080706}.header{padding:0 5.5%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #a77d2c55;min-height:0}.brand{display:flex;align-items:center;gap:8px;color:#fff;text-decoration:none}.brand-bars{height:31px;display:flex;align-items:end;gap:3px}.brand-bars i{display:block;width:7px;background:linear-gradient(#ffe38a,#b57b13);box-shadow:0 0 9px #d99b2c88}.brand-bars i:nth-child(1){height:14px}.brand-bars i:nth-child(2){height:23px}.brand-bars i:nth-child(3){height:31px}.brand-name{font:500 19px var(--serif);letter-spacing:1px}.brand-name small{display:block;color:var(--gold);font:700 8px "DM Sans",sans-serif;letter-spacing:4px}.header-join{color:#fff;text-decoration:none;border:1px solid var(--gold);border-radius:9px;padding:9px 17px;font-size:11px;letter-spacing:1px;box-shadow:0 0 13px #e6b83b40}.header-join span{color:var(--gold);margin-left:8px}.main{min-height:0;display:grid;grid-template-rows:minmax(0,1fr) auto auto;padding:0 5.5%;}.hero{min-height:0;position:relative;display:grid;grid-template-columns:43% 34% 23%;align-items:center;overflow:hidden}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#080706 0%,#080706b8 39%,transparent 72%),linear-gradient(0deg,#080706 0%,transparent 22%);z-index:2;pointer-events:none}.hero-copy{position:relative;z-index:3;align-self:center;padding:0 0 0 2%;min-width:0}.eyebrow{font-size:10px;letter-spacing:5px;color:var(--gold2);margin:0 0 23px}.gold-bars{height:28px;display:flex;align-items:end;gap:4px;margin-left:115px}.gold-bars i{width:8px;background:linear-gradient(#ffdf78,#a96d0c);box-shadow:0 0 12px #e4b83f66}.gold-bars i:nth-child(1){height:10px}.gold-bars i:nth-child(2){height:19px}.gold-bars i:nth-child(3){height:28px}.hero h1{font:600 clamp(50px,6vw,88px)/.94 var(--serif);letter-spacing:0;margin:0;white-space:nowrap;text-shadow:0 4px 25px #000}.trading-word{font:700 clamp(25px,3vw,42px) "DM Sans",sans-serif;letter-spacing:10px;color:var(--gold);margin:8px 0 18px 10px}.hero-sub{font-size:clamp(12px,1.25vw,17px);line-height:1.6;margin:0;color:#f0ede7;white-space:nowrap}.hero-sub b{color:var(--gold);font-weight:400;margin:0 4px}.hero-note{max-width:390px;color:#bdb6aa;font-size:clamp(10px,1vw,13px);line-height:1.5;margin:17px 0 0}.hero-portrait{height:94%;min-height:0;align-self:center;position:relative;z-index:1;overflow:hidden;clip-path:polygon(20% 0,100% 0,82% 100%,0 100%);filter:drop-shadow(0 0 25px #d79d2c33)}.hero-portrait:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#08070655,transparent 30%,#08070622),linear-gradient(0deg,#08070677,transparent 30%)}.hero-portrait img{width:100%;height:100%;object-fit:cover;object-position:center 25%;filter:brightness(.87) saturate(.82)}.photo-stack{height:82%;align-self:center;z-index:3;display:grid;grid-template-rows:repeat(3,1fr);gap:9px;min-height:0;margin-left:-10px}.photo{min-height:0;overflow:hidden;border-left:2px solid var(--gold);transform:skewX(-9deg);box-shadow:0 0 17px #d8a42c20}.photo img{width:112%;height:100%;object-fit:cover;transform:skewX(9deg) scale(1.08);filter:brightness(.83) saturate(.8)}.photo-laptop img{object-position:center 45%}.photo-horse img{object-position:center 48%}.photo-travel img{object-position:center 45%}.join-area{text-align:center;display:flex;flex-direction:column;align-items:center;gap:9px;padding:5px 0 15px;position:relative;z-index:4}.telegram-button{width:min(440px,55%);min-height:61px;padding:10px 28px;border-radius:60px;background:linear-gradient(180deg,#ffe78c 0%,#ffc62f 42%,#eaa400 100%);border:2px solid #ffdc64;box-shadow:0 0 10px #ffce3c,0 0 27px #ffb90099,0 0 55px #e9a40055,inset 0 2px 7px #fff8b9;display:flex;align-items:center;justify-content:center;gap:16px;color:#080706;text-decoration:none;font-size:clamp(21px,2.3vw,30px);font-weight:800;transition:transform .2s,box-shadow .2s}.telegram-button:hover{transform:translateY(-2px);box-shadow:0 0 15px #ffce3c,0 0 38px #ffb900bb}.telegram-button svg{width:27px;height:27px;fill:#080706}.join-area>p{margin:0;color:#e4ded3;font-size:clamp(10px,.95vw,13px)}.features{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;padding:0 0 12px}.feature{min-height:76px;border:1px solid #9c762e77;border-radius:13px;background:linear-gradient(145deg,#15110b,#0a0907);display:flex;align-items:center;justify-content:center;gap:12px;box-shadow:inset 0 0 15px #d9a62a09}.feature>span{font-size:31px;line-height:1;color:var(--gold);text-shadow:0 0 12px #dca72f88}.feature p{font-size:clamp(11px,1vw,14px);line-height:1.25;margin:0}.footer{display:flex;align-items:center;justify-content:space-between;padding:0 5.5%;border-top:1px solid #ffffff12;color:#827b70;font-size:9px;min-width:0}.footer span:last-child{text-align:right;margin-left:15px}
-@media(max-width:700px){.page{grid-template-rows:52px minmax(0,1fr) 19px}.header{padding:0 4%}.brand-bars{height:25px}.brand-bars i{width:6px}.brand-bars i:nth-child(1){height:11px}.brand-bars i:nth-child(2){height:18px}.brand-bars i:nth-child(3){height:25px}.brand-name{font-size:15px}.brand-name small{font-size:7px;letter-spacing:3px}.header-join{font-size:9px;padding:7px 10px}.main{padding:0 4%;grid-template-rows:minmax(0,1fr) auto auto}.hero{grid-template-columns:49% 31% 20%;align-items:center}.hero:before{background:linear-gradient(90deg,#080706 0%,#080706c9 40%,transparent 78%),linear-gradient(0deg,#080706 0%,transparent 23%)}.hero-copy{padding-left:0;align-self:center}.eyebrow{font-size:7px;letter-spacing:2.5px;margin-bottom:14px;white-space:nowrap}.gold-bars{height:21px;margin-left:62px}.gold-bars i{width:6px}.gold-bars i:nth-child(1){height:8px}.gold-bars i:nth-child(2){height:14px}.gold-bars i:nth-child(3){height:21px}.hero h1{font-size:clamp(37px,11vw,62px);letter-spacing:-1px}.trading-word{font-size:clamp(19px,5.7vw,29px);letter-spacing:6px;margin:6px 0 11px 5px}.hero-sub{font-size:clamp(8px,2.35vw,12px);line-height:1.5;white-space:normal}.hero-sub b{margin:0 1px}.hero-note{font-size:9px;line-height:1.4;margin-top:10px;max-width:205px}.hero-portrait{height:78%;width:112%;margin-left:-5%;clip-path:polygon(23% 0,100% 0,81% 100%,0 100%)}.hero-portrait img{object-position:48% center}.photo-stack{height:66%;gap:5px;margin-left:-10px}.photo{border-left-width:1px}.join-area{gap:6px;padding:4px 0 10px}.telegram-button{width:min(310px,78%);min-height:47px;padding:7px 17px;gap:11px;font-size:clamp(17px,5vw,23px)}.telegram-button svg{width:21px;height:21px}.join-area>p{font-size:9px;line-height:1.25}.features{grid-template-columns:repeat(2,1fr);gap:7px;padding-bottom:8px}.feature{min-height:48px;border-radius:9px;gap:9px}.feature>span{font-size:23px}.feature p{font-size:10px}.footer{padding:0 4%;font-size:7px}.footer span:last-child{max-width:62%}}
-@media(max-height:700px) and (max-width:700px){.page{grid-template-rows:46px minmax(0,1fr) 16px}.hero-copy .hero-note{display:none}.hero-portrait{height:74%}.photo-stack{height:60%}.join-area{padding:2px 0 6px}.telegram-button{min-height:41px}.features{gap:5px;padding-bottom:5px}.feature{min-height:42px}.feature>span{font-size:19px}.feature p{font-size:9px}}
-@media(min-width:701px) and (max-height:650px){.page{grid-template-rows:52px minmax(0,1fr) 18px}.hero-note{display:none}.hero-portrait{height:85%}.photo-stack{height:72%}.feature{min-height:58px}.telegram-button{min-height:48px}}
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;background:#080706;color:#f7f4ef;font-family:"DM Sans",Arial,sans-serif}
+body{overflow:hidden}
+:root{--gold:#e4b83f;--gold2:#ffdf72;--serif:"Playfair Display",Georgia,serif}
+.page{height:100svh;min-height:0;max-width:1600px;margin:0 auto;display:grid;grid-template-rows:64px minmax(0,1fr) 24px;overflow:hidden;background:radial-gradient(ellipse at 54% 38%,#5d3e1629,transparent 48%),#080706}
+.header{padding:0 5.5%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #a77d2c55;min-height:0}
+.brand{display:flex;align-items:center;gap:8px;color:#fff;text-decoration:none}
+.brand-bars{height:31px;display:flex;align-items:end;gap:3px}
+.brand-bars i{display:block;width:7px;background:linear-gradient(#ffe38a,#b57b13);box-shadow:0 0 9px #d99b2c88}
+.brand-bars i:nth-child(1){height:14px}.brand-bars i:nth-child(2){height:23px}.brand-bars i:nth-child(3){height:31px}
+.brand-name{font:500 19px var(--serif);letter-spacing:1px}
+.brand-name small{display:block;color:var(--gold);font:700 8px "DM Sans",sans-serif;letter-spacing:4px}
+.header-join{color:#fff;text-decoration:none;border:1px solid var(--gold);border-radius:9px;padding:9px 17px;font-size:11px;letter-spacing:1px;box-shadow:0 0 13px #e6b83b40}
+.header-join span{color:var(--gold);margin-left:8px}
+.main{min-height:0;display:grid;grid-template-rows:minmax(0,1fr) auto auto;padding:0 5.5%}
+.hero{min-height:0;position:relative;display:grid;grid-template-columns:43% 34% 23%;align-items:center;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#080706 0%,#080706b8 39%,transparent 72%),linear-gradient(0deg,#080706 0%,transparent 22%);z-index:2;pointer-events:none}
+.hero-copy{position:relative;z-index:3;align-self:center;padding:0 0 0 2%;min-width:0}
+.eyebrow{font-size:10px;letter-spacing:5px;color:var(--gold2);margin:0 0 23px}
+.gold-bars{height:28px;display:flex;align-items:end;gap:4px;margin-left:115px}
+.gold-bars i{width:8px;background:linear-gradient(#ffdf78,#a96d0c);box-shadow:0 0 12px #e4b83f66}
+.gold-bars i:nth-child(1){height:10px}.gold-bars i:nth-child(2){height:19px}.gold-bars i:nth-child(3){height:28px}
+.hero h1{font:600 clamp(50px,6vw,88px)/.94 var(--serif);letter-spacing:0;margin:0;white-space:nowrap;text-shadow:0 4px 25px #000}
+.trading-word{font:700 clamp(25px,3vw,42px) "DM Sans",sans-serif;letter-spacing:10px;color:var(--gold);margin:8px 0 18px 10px}
+.hero-sub{font-size:clamp(12px,1.25vw,17px);line-height:1.6;margin:0;color:#f0ede7;white-space:nowrap}
+.hero-sub b{color:var(--gold);font-weight:400;margin:0 4px}
+.hero-note{max-width:390px;color:#bdb6aa;font-size:clamp(10px,1vw,13px);line-height:1.5;margin:17px 0 0}
+.hero-portrait{height:94%;min-height:0;align-self:center;position:relative;z-index:1;overflow:hidden;clip-path:polygon(20% 0,100% 0,82% 100%,0 100%);filter:drop-shadow(0 0 25px #d79d2c33)}
+.hero-portrait:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#08070655,transparent 30%,#08070622),linear-gradient(0deg,#08070677,transparent 30%)}
+.hero-portrait img{width:100%;height:100%;object-fit:cover;object-position:center 25%;filter:brightness(.87) saturate(.82)}
+.photo-stack{height:82%;align-self:center;z-index:3;display:grid;grid-template-rows:repeat(3,1fr);gap:9px;min-height:0;margin-left:-10px}
+.photo{min-height:0;overflow:hidden;border-left:2px solid var(--gold);transform:skewX(-9deg);box-shadow:0 0 17px #d8a42c20}
+.photo img{width:112%;height:100%;object-fit:cover;transform:skewX(9deg) scale(1.08);filter:brightness(.83) saturate(.8)}
+.photo-laptop img{object-position:center 45%}.photo-horse img{object-position:center 48%}.photo-travel img{object-position:center 45%}
+.join-area{text-align:center;display:flex;flex-direction:column;align-items:center;gap:9px;padding:5px 0 15px;position:relative;z-index:4}
+.telegram-button{width:min(440px,55%);min-height:61px;padding:10px 28px;border-radius:60px;background:linear-gradient(180deg,#ffe78c 0%,#ffc62f 42%,#eaa400 100%);border:2px solid #ffdc64;box-shadow:0 0 10px #ffce3c,0 0 27px #ffb90099,0 0 55px #e9a40055,inset 0 2px 7px #fff8b9;display:flex;align-items:center;justify-content:center;gap:16px;color:#080706;text-decoration:none;font-size:clamp(21px,2.3vw,30px);font-weight:800;transition:transform .2s,box-shadow .2s}
+.telegram-button:hover{transform:translateY(-2px);box-shadow:0 0 15px #ffce3c,0 0 38px #ffb900bb}
+.telegram-button svg{width:27px;height:27px;fill:#080706}
+.join-area>p{margin:0;color:#e4ded3;font-size:clamp(10px,.95vw,13px)}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;padding:0 0 12px}
+.feature{min-height:76px;border:1px solid #9c762e77;border-radius:13px;background:linear-gradient(145deg,#15110b,#0a0907);display:flex;align-items:center;justify-content:center;gap:12px;box-shadow:inset 0 0 15px #d9a62a09}
+.feature>span{font-size:31px;line-height:1;color:var(--gold);text-shadow:0 0 12px #dca72f88}
+.feature p{font-size:clamp(11px,1vw,14px);line-height:1.25;margin:0}
+.footer{display:flex;align-items:center;justify-content:space-between;padding:0 5.5%;border-top:1px solid #ffffff12;color:#827b70;font-size:9px;min-width:0}
+.footer span:last-child{text-align:right;margin-left:15px}
+@media(max-width:700px){
+.page{grid-template-rows:52px minmax(0,1fr) 19px}.header{padding:0 4%}
+.brand-bars{height:25px}.brand-bars i{width:6px}.brand-bars i:nth-child(1){height:11px}.brand-bars i:nth-child(2){height:18px}.brand-bars i:nth-child(3){height:25px}
+.brand-name{font-size:15px}.brand-name small{font-size:7px;letter-spacing:3px}
+.header-join{font-size:9px;padding:7px 10px}
+.main{padding:0 4%;grid-template-rows:minmax(0,1fr) auto auto}
+.hero{grid-template-columns:49% 31% 20%;align-items:center}
+.hero:before{background:linear-gradient(90deg,#080706 0%,#080706c9 40%,transparent 78%),linear-gradient(0deg,#080706 0%,transparent 23%)}
+.hero-copy{padding-left:0;align-self:center}
+.eyebrow{font-size:7px;letter-spacing:2.5px;margin-bottom:14px;white-space:nowrap}
+.gold-bars{height:21px;margin-left:62px}.gold-bars i{width:6px}.gold-bars i:nth-child(1){height:8px}.gold-bars i:nth-child(2){height:14px}.gold-bars i:nth-child(3){height:21px}
+.hero h1{font-size:clamp(37px,11vw,62px);letter-spacing:-1px}
+.trading-word{font-size:clamp(19px,5.7vw,29px);letter-spacing:6px;margin:6px 0 11px 5px}
+.hero-sub{font-size:clamp(8px,2.35vw,12px);line-height:1.5;white-space:normal}.hero-sub b{margin:0 1px}
+.hero-note{font-size:9px;line-height:1.4;margin-top:10px;max-width:205px}
+.hero-portrait{height:78%;width:112%;margin-left:-5%;clip-path:polygon(23% 0,100% 0,81% 100%,0 100%)}
+.hero-portrait img{object-position:48% center}
+.photo-stack{height:66%;gap:5px;margin-left:-10px}.photo{border-left-width:1px}
+.join-area{gap:6px;padding:4px 0 10px}
+.telegram-button{width:min(310px,78%);min-height:47px;padding:7px 17px;gap:11px;font-size:clamp(17px,5vw,23px)}
+.telegram-button svg{width:21px;height:21px}
+.join-area>p{font-size:9px;line-height:1.25}
+.features{grid-template-columns:repeat(2,1fr);gap:7px;padding-bottom:8px}
+.feature{min-height:48px;border-radius:9px;gap:9px}.feature>span{font-size:23px}.feature p{font-size:10px}
+.footer{padding:0 4%;font-size:7px}.footer span:last-child{max-width:62%}
+}
+@media(max-height:700px) and (max-width:700px){
+.page{grid-template-rows:46px minmax(0,1fr) 16px}.hero-copy .hero-note{display:none}
+.hero-portrait{height:74%}.photo-stack{height:60%}
+.join-area{padding:2px 0 6px}.telegram-button{min-height:41px}
+.features{gap:5px;padding-bottom:5px}.feature{min-height:42px}.feature>span{font-size:19px}.feature p{font-size:9px}
+}
+@media(min-width:701px) and (max-height:650px){
+.page{grid-template-rows:52px minmax(0,1fr) 18px}.hero-note{display:none}
+.hero-portrait{height:85%}.photo-stack{height:72%}.feature{min-height:58px}.telegram-button{min-height:48px}
+}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* Final viewport-fit polish */
+html,body{height:100%;min-height:100%;overscroll-behavior:none}
+body{height:100dvh;overflow:hidden}
+.page{height:100dvh;min-height:0;overflow:hidden;isolation:isolate}
+.main{min-height:0;overflow:hidden}
+.hero{min-height:0}
+.hero-portrait img,.photo img{display:block}
+.telegram-button,.header-join{-webkit-tap-highlight-color:transparent}
+@media(max-width:700px){
+.page{height:100dvh;grid-template-rows:clamp(44px,6.2dvh,54px) minmax(0,1fr) clamp(16px,2.5dvh,20px)}
+.main{grid-template-rows:minmax(0,1fr) auto auto}
+.hero{min-height:0}
+.hero-portrait{height:min(78%,560px);min-height:0}
+.photo-stack{height:min(66%,470px);min-height:0}
+.join-area{padding-top:clamp(2px,.7dvh,7px);padding-bottom:clamp(5px,1.2dvh,10px)}
+.features{padding-bottom:clamp(4px,.9dvh,8px)}
+}
+@media(max-width:380px){
+.hero{grid-template-columns:50% 30% 20%}
+.hero h1{font-size:clamp(34px,10.4vw,43px)}
+.trading-word{font-size:18px;letter-spacing:5px}
+.hero-note{font-size:8px;max-width:165px}
+.feature{gap:6px}.feature p{font-size:9px}
+.telegram-button{width:82%}
+}

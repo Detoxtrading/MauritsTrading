@@ -16,8 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }));
   }
 
-  // Telegram universal link: opens the Telegram app when installed,
-  // otherwise it falls back to the Telegram channel in the browser.
+  // Opens the Telegram app when installed; otherwise opens the channel in browser.
   document.querySelectorAll(".telegram-link").forEach(link => {
     link.href = "https://t.me/MauritsTrading1";
     link.target = "_blank";
