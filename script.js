@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const year = document.getElementById("year");
   if (year) year.textContent = new Date().getFullYear();
 
-  // HTTPS Telegram universal link opens the app when installed.
   document.querySelectorAll(".telegram-link").forEach(link => {
     link.href = "https://t.me/MauritsTrading1";
     link.target = "_blank";
